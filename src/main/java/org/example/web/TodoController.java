@@ -14,7 +14,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Slf4j
-@CrossOrigin
 @AllArgsConstructor
 @RestController
 @RequestMapping("/")
@@ -75,3 +74,4 @@ public class TodoController {
         return ResponseEntity.ok().build();
     }
 }
+
